@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #030a1e;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: #FFFFFF;
+    gap: 50px;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: #48CAE4;
+    transition: 1.5s ease;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0E1939;
+    width: 80%;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 1px solid #9c6767;
+}
+.butt{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #48CAE4;
+    text-decoration: none;
+    border: 2px solid #48CAE4;
+}
+.butt:hover{
+    background-color: transparent;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.term{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.term h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #F5F5F5;
+}
+.term p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #c7acac;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.first p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 50vw;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.second h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.second p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 50vw;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.third h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.third p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 49.5vw;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fourth h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.fourth p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 49.5vw;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fifth h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.fifth p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 40vw;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sixth h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.sixth p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 49.5vw;
+}
+.sixth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.seventh h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.seventh p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 49.5vw;
+}
+.seventh{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.eighth h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.eighth p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 49.5vw;
+}
+.eighth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ninth h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.ninth p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 49.5vw;
+}
+.ninth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tenth h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.tenth p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3a6a6;
+    width: 49.5vw;
+}
+.tenth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec3 h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 20vw;
+    text-transform: capitalize;
+}
+.sec3 a{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #48CAE4;
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    border: 2px solid #48CAE4;
+}
+.sec3 a:hover{
+    background-color: transparent;
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.jjoin{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 30px;
+}
+.sec4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kimg img{
+    width: 7vw;
+}
+.socia img{
+    width: 2vw;
+}
+.socia{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sec5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+.aa{
+    width: 62%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E1939;
+    border-radius: 20px;
+    gap: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #48CAE4;
+    transition: 1.5s ease;
+}
+.all p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b7a1a1;
+}
+
+@media screen and (max-width: 960px) {
+body{
+    gap: 50px;
+}
+ul{
+    display: none;
+}
+nav{
+    width: 95%;
+    gap: 15px;
+}
+.join{
+    align-items: center;
+    gap: 20px;
+}
+.term h1{
+    font-size: 44px;
+}
+.first p{
+    width: 85vw;
+}
+.second p{
+    width: 85vw;
+}
+.third p{
+    width: 85vw;
+}
+.fourth p{
+    width: 85vw;
+}
+.fifth p{
+    width: 85vw;
+}
+.sixth p{
+    width: 85vw;
+}
+.seventh p{
+    width: 85vw;
+}
+.eighth p{
+    width: 85vw;
+}
+.ninth p{
+    width: 85vw;
+}
+.tenth p{
+    width: 85vw;
+}
+.sec3{
+    flex-direction: column;
+}
+.jjoin h1{
+    width: 86vw;
+    font-size: 30px;
+}
+.sec3 img{
+    width: 80vw;
+}
+.kimg img{
+    width: 30vw;
+}
+.socia img{
+    width: 10vw;
+}
+.aa{
+    width: 90%;
+    gap: 20px;
+}
+
+
+
+
+
+}

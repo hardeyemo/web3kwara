@@ -1,0 +1,840 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #030a1e;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    overflow-x: hidden;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: #FFFFFF;
+    gap: 50px;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+li{
+    cursor: pointer;
+    transition: 1.5s ease;
+}
+li:hover{
+    color: #48CAE4;
+    transition: 1.5s ease;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0E1939;
+    width: 80%;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 1px solid #9c6767;
+}
+.butt{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #48CAE4;
+    text-decoration: none;
+    border: 2px solid #48CAE4;
+    transition: 1.5s ease;
+}
+.butt:hover{
+    background-color: transparent;
+}
+.sec2{
+    background-image: url(/images/Group\ 40.png), url(/images/Group\ 39.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20%, 80%;
+    background-size: contain;
+}
+.mission{
+    gap: 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mission h1{
+    font-size: 70px;
+    font-weight: 900;
+    width: 55vw;
+    
+}
+.mission p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 22vw;
+}
+.sec3 h1{
+    font-size: 40px;
+    font-family: 700;
+    color: #FFFFFF;
+    width: 20vw;
+}
+.sec3 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b7a1a1;
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.join{
+    display: flex;
+    gap: 50px;
+}
+.comm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.jobcom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.close{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.educlose{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: #0E1939;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.web p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b7a1a1;
+    width: 22vw;
+}
+.web h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.sec4 h1{
+    color: #FFFFFF;
+}
+.sec4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.demo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.s4{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.fost{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fost h1{
+    width: 11vw;
+}
+.img{
+    display: flex;
+    gap: 20px;
+}
+.demofo{
+    display: flex;
+    gap: 30px;
+}
+.join2 h1{
+    color: #FFFFFF;
+    width: 10vw;
+}
+.join2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.thremp{
+    display: flex;
+    gap: 30px;
+}
+.vision p{
+    color: #b7a1a1;
+    font-size: 16px;
+    font-weight: 400;
+    width: 23vw;
+}
+.vision{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.thr{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.emp{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sec5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.img2{
+    display: flex;
+    gap: 20px;
+}
+.sec h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 30vw;
+}
+.sec p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 22vw; 
+}
+.sec{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+}
+.sec7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: #0E1939;
+    padding: 60px 0px;
+}
+.updown{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.inclu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #0B132B;
+    padding: 30px 40px 80px 40px;
+}
+.inclu img{
+    width: 2vw;
+}
+.trans img{
+    width: 2vw;
+}
+.coll img{
+    width: 2vw;
+}
+.inno img{
+    width: 2vw;
+}
+.eth img{
+    width: 2vw;
+}
+.empower img{
+    width: 2vw;
+}
+.trans{
+    background-color: #0B132B;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 40px 80px 40px;
+}
+.empower{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #0B132B;
+    padding: 30px 40px 80px 40px;
+}
+.inno{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #0B132B;
+    padding: 30px 40px 80px 40px;
+}
+.coll{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #0B132B;
+    padding: 30px 40px 80px 40px;
+}
+.eth{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #0B132B;
+    padding: 30px 40px 80px 40px;
+}
+.inc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.em{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.et{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tra{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.up{
+    display: flex;
+    gap: 100px;
+}
+.up h1{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.down p{
+    color: #b7a1a1;
+    font-size: 14px;
+    font-weight: 400;
+    width: 12vw;
+}
+.down h1{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.up p{
+    color: #b7a1a1;
+    font-size: 14px;
+    font-weight: 400;
+    width: 12vw;
+}
+.down{
+    display: flex;
+    gap: 100px;
+}
+.profile h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.profile p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #FFFFFF;
+}
+.aji{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E1939;
+    padding: 50px 70px;
+    border-radius: 20px;
+    gap: 15px;
+}
+.jay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E1939;
+    padding: 50px 70px;
+    border-radius: 20px;
+    gap: 15px;
+}
+.sam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E1939;
+    padding: 50px 70px;
+    border-radius: 20px;
+    gap: 15px;
+}
+.ajimg img{
+    width: 5vw;
+}
+.abduimg img{
+    width: 5vw;
+}
+.samimg img{
+    width: 5vw;
+}
+.jayimg img{
+    width: 5vw;
+}
+.abdu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E1939;
+    padding: 50px 70px;
+    border-radius: 20px;
+    gap: 15px;
+}
+.social img{
+    width: 2vw;
+}
+.meet h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.meet p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b7a1a1;
+    width: 22vw;
+}
+.meet{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    display: flex;
+}
+.sec8{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.sec9 h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 30vw;
+}
+.sec9{
+    background-image: url(/images/Frame\ 127\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 90px;
+    background-size: contain;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 30%;
+}
+.sec9 button{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #48CAE4;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+.sec9 button:hover{
+    background-color: #030a1e;
+    color: white;
+    transition: 1.5s ease;
+}
+.sec10 h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 20vw;
+    text-transform: capitalize;
+}
+.sec10 a{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #48CAE4;
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    border: 2px solid #48CAE4;
+}
+.sec10 a:hover{
+    background-color: transparent;
+    transition: 1.5s ease;
+}
+.sec10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.jjoin{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 30px;
+}
+.sec11{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kimg img{
+    width: 7vw;
+}
+.socia img{
+    width: 2vw;
+}
+.socia{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sec12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+.aa{
+    width: 62%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E1939;
+    border-radius: 20px;
+    gap: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #48CAE4;
+    transition: 1.5s ease;
+}
+.all p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b7a1a1;
+}
+
+@media screen and (max-width: 960px) {
+body{
+    gap: 50px;
+}
+ul{
+        display: none;
+    }
+nav{
+        width: 95%;
+    }
+.sec2 h1{
+        width: 90vw;
+        font-size: 30px;
+    }
+.sec2{
+        text-align: center;
+    }
+.sec2 p{
+        width: 90vw;
+    }
+.sec3{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+.join{
+        gap: 0px;
+    }
+.sec3 h1{
+        width: 60vw;
+        font-size: 25px;
+    }
+.jobcom{
+        gap: 20px;
+    }
+.educlose{
+        gap: 20px;
+    }
+.sec4{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+.web p{
+        width: 85vw;
+}
+.web{
+    align-items: center;
+} 
+.demofo{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+} 
+.fost h1{
+    width: 50vw;
+}
+.fost{
+    gap: 2px;
+}
+.demo{
+    gap: 10px;
+}
+.s4{
+    gap: 20px;
+}
+.img img{
+    width: 40vw;
+}
+.sec5{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+.img2 img{
+    width: 40vw;
+}
+.join2 p{
+    width: 85vw;
+}
+.vision{
+    align-items: center;
+}
+.vision h1{
+    width: 70vw;
+    font-size: 30px;
+}
+.thremp{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.thr h1{
+    width: 70vw;
+}
+.emp h1{
+    width: 70vw;
+}
+.thr{
+    gap: 10px;
+}
+.emp{
+    gap: 10px;
+}
+.sec{
+    align-items: center;
+    gap: 20px;
+}
+.sec h1{
+    width: 90vw;
+    font-size: 25px;
+}
+.sec p{
+    width: 70vw;
+}
+.updown{
+    flex-direction: column;
+    align-items: center;
+}
+.up{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.inc p{
+    width: 70vw;
+    font-size: 18px;
+}
+.inclu img{
+    width: 10vw;
+}
+.em p{
+    width: 70vw;
+    font-size: 18px;
+}
+.empower img{
+    width: 10vw;
+}
+.tra p{
+    width: 70vw;
+    font-size: 18px;
+}
+.trans img{
+    width: 10vw;
+}
+.in p{
+    width: 70vw;
+    font-size: 18px;
+}
+.inno img{
+    width: 10vw;
+}
+.col p{
+    width: 70vw;
+    font-size: 18px;
+}
+.coll img{
+    width: 10vw;
+}
+.et p{
+    width: 70vw;
+    font-size: 18px;
+}
+.eth img{
+    width: 10vw;
+}
+.down{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.meet p{
+    width: 80vw;
+}
+.profile{
+    flex-direction: column;
+    align-items: center;
+}
+.profile h1{
+    font-size: 25px;
+}
+.profile p{
+    font-size: 15px;
+}
+.social img{
+    width: 10vw;
+}
+.social{
+    gap: 30px;
+}
+.ajimg img{
+    width: 30vw;
+}
+.abduimg img{
+    width: 30vw;
+}
+.samimg img{
+    width: 30vw;
+}
+.jayimg img{
+    width: 30vw;
+}
+.aji{
+    align-items: center;
+    gap: 10px;
+    padding: 20px 50px;
+}
+.sec9 h1{
+    width: 70vw;
+    font-size: 20px;
+}
+.sec9{
+    background-size: 90% 55%;
+    background-position: contain;
+}
+.explore{
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+}
+.explore button{
+    width: 40vw;
+}
+.sec10{
+    flex-direction: column;
+    gap: 50px;
+}
+.jjoin{
+    align-items: center;
+    text-align: center;
+}
+.sec10 h1{
+    width: 90vw;
+    font-size: 25px;
+}
+.sec10 img{
+    width: 80vw;
+}
+.sec11 img{
+    width: 10vw;
+}
+.sec11{
+    gap: 40px;
+    justify-content: center;
+}
+.kimg img{
+    width: 35vw;
+}
+.aa{
+    width: 90%;
+    gap: 20px;
+}
+}
+

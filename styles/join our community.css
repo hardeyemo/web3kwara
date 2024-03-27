@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #030a1e;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.join h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 25vw;
+}
+.join{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.join img{
+    width: 3vw;
+    cursor: pointer;
+}
+.request{
+    font-size: 26px;
+    font-weight: 400;
+    color: #ba9494;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.nmail{
+    display: flex;
+    gap: 20px;
+}
+.nmail input{
+    width: 30vw;
+    height: 5vh;
+    text-transform: capitalize;
+    background-color: #030a1e;
+    border: none;
+    color: #FFFFFF;
+    border-bottom: 0.5px solid #a37f7f;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    
+}
+.mess input{
+    width: 61vw;
+    height: 5vh;
+    text-transform: capitalize;
+    background-color: #030a1e;
+    border: none;
+    color: #FFFFFF;
+    border-bottom: 0.5px solid #a37f7f;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+form button{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #48CAE4;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+form button:hover{
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+@media screen and (max-width: 960px) {
+.request{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.request p{
+    font-size: 18px;
+}
+.join h1{
+    width: 95vw;
+    font-size: 25px;
+}
+.join{
+    justify-content: center;
+}
+.nmail{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.nmail input{
+    width: 80vw;
+}
+.mess{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mess input{
+    width: 80vw;
+}
+form button{
+    width: 90%;
+    padding: 20px;
+}
+form{
+    align-items: center;
+}
+
+}
